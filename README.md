@@ -12,10 +12,10 @@
 ### Section 2: Tidyverse - Data Wrangling
 
 
-### section 3: Tidyverse visulization
+### section 3: Tidyverse - Visualization
 
 
-### section 4:  Model Building
+### section 4:  Model
 
 
 ### Section 5:   Shiny
