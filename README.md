@@ -3,7 +3,7 @@
 ## Instruction for Consensio Health Data Science Postion Job Applicants
 
 - Create a forked repo of this git for your solutions.
-- Please use the data set provided:  FARS.csv (https://vincentarelbundock.github.io/Rdatasets/doc/gamclass/FARS.html)
+- You will be using the Boston Housing Dataset to answet the questions
 
 
 ### Section 1:  Base-R

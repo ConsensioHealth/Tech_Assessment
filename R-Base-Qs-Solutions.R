@@ -1,22 +1,23 @@
 # Base R Questions.  (Solutions File)
 
-# Load FARS.csv.
-#insert code below
+# Load The Boston HOusing Dataset
+#  Insert code below
 
-FARS <- read.csv("FARS.csv",stringsAsFactors = F)
+library(MASS)
+data("Boston")
 
 # How many columns are there in the data set?  List their names.
-#insert code below
+#  Insert code below
 
-ncol(FARS)
-colnames(FARS)
+ncol(Boston)
+colnames(Boston)
 
-# How many accidents aree reported in year 2000?
-#insert code below
+# How many homes have a median value between 21K and 49K?
+#  Insert code below
 
-nrow(FARS[FARS$year==2000,])
+nrow(Boston[Boston$medv>=21&Boston$medv<=49,])
 
-#  What is the proprotion of male to female drivers in cases when airbags deployed during acciddnts in 2001?
-#insert code below
+#  What is the median home value for properties along the the Charles River?  
+#  Insert code below
 
-nrow(FARS[FARS$year==2001&FARS$sex==1&FARS$D_airbagDeploy=="yes",])/nrow(FARS[FARS$year==2001&FARS$D_airbagDeploy=="yes",])
+median(Boston$medv[Boston$chas==1])
