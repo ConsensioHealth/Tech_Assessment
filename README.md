@@ -4,7 +4,7 @@
 
 - Create a forked repo of this git for your solutions.
 - You will be using the Rossman Store Sales Dataset to answer the questions
-- [Here is the data dictionary](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Here is the data dictionary](https://www.kaggle.com/c/rossmann-store-sales/data)
 
 
 ### Section 1:  Base-R
